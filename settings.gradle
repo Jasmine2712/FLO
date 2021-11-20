@@ -1,0 +1,2 @@
+rootProject.name = "FLO"
+include ':app'

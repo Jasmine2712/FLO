@@ -13,7 +13,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FLO">
-        <activity android:name=".LupapwActivity"></activity>
+        <activity android:name=".SaluranAirActivity"></activity>
+        <activity android:name=".SaluranActivity" />
+        <activity android:name=".LupapwActivity" />
         <activity android:name=".KondisiAirActivity" />
         <activity android:name=".KondisiActivity" />
         <activity android:name=".Success" />

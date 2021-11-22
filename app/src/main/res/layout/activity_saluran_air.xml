@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C5E8EA"
+    android:gravity="center"
+    android:paddingTop="40dp"
+    android:orientation="vertical"
+    tools:context=".SaluranAirActivity">
+
+    <LinearLayout
+        android:layout_width="349dp"
+        android:layout_height="199dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/water2"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="31dp">
+
+        <ImageView
+            android:layout_width="91dp"
+            android:layout_height="77dp"
+            android:src="@drawable/camera">
+
+        </ImageView>
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="147dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Kondisi \nSaluran Air"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"/>
+
+    <LinearLayout
+        android:layout_width="411dp"
+        android:layout_marginBottom="20dp"
+        android:layout_height="481dp"
+        android:gravity="center"
+        android:background="@drawable/bg2"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="283dp"
+            android:layout_height="71dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/bg"
+            android:backgroundTint="#8AED7A"
+            android:gravity="center"
+            android:text="Ketinggian Air Normal"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="283dp"
+            android:layout_height="71dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/bg"
+            android:backgroundTint="#FA9898"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="Ketinggian Air \nMeningkat"/>
+
+        <TextView
+            android:layout_width="205dp"
+            android:layout_height="38dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/bg3"
+            android:backgroundTint="#6AA5C7"
+            android:gravity="center"
+            android:text="Stop Nontifikasi"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="374dp"
+            android:layout_height="166dp"
+            android:paddingBottom="20dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="127dp"
+                android:layout_height="148dp"
+                android:background="@drawable/bg"
+                android:backgroundTint="#A0D5EB"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="61dp"
+                    android:layout_height="74dp"
+                    android:layout_marginBottom="9dp"
+                    android:src="@drawable/wa" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Whats App"
+                    android:textColor="#515895" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="19dp"
+                android:layout_height="36dp" />
+
+            <LinearLayout
+                android:layout_width="127dp"
+                android:layout_height="148dp"
+                android:gravity="center"
+                android:background="@drawable/bg"
+                android:backgroundTint="#A0D5EB"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="105dp"
+                    android:layout_height="69dp"
+                    android:layout_marginBottom="9dp"
+                    android:src="@drawable/tele" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Telegram"
+                    android:textColor="#515895"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
     private EditText etEmail, etPassword;
     private String email, password;
-    private String URL = "http://192.168.1.1/login/login.php";
+    private String URL = "http://192.168.1.9/login/login.php";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
                 public void onErrorResponse(VolleyError error) {
                     Toast.makeText(MainActivity.this, error.toString().trim(), Toast.LENGTH_SHORT).show();
                 }
-            }){
+        }){
                 @Override
                 protected Map<String, String> getParams() throws AuthFailureError {
                     Map<String, String> data = new HashMap<>();
@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
         } else{
             Toast.makeText(this, "Fields can not be empty!", Toast.LENGTH_SHORT).show();
         }
-        }
+    }
 
     public void Daftardisini(View view) {
         Intent intent = new Intent(this, RegisterActivity.class);
@@ -77,8 +77,5 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void Lupapw(View view) {
-        Intent intent = new Intent(this, LupapwActivity.class);
-        startActivity(intent);
-        finish();
     }
 }

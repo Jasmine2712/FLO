@@ -23,12 +23,12 @@
         <ImageView
             android:layout_width="91dp"
             android:layout_height="77dp"
-            android:src="@drawable/camera">
+            android:src="@drawable/tinggi">
 
         </ImageView>
 
         <Space
-            android:layout_width="10dp"
+            android:layout_width="15dp"
             android:layout_height="wrap_content" />
 
         <TextView

@@ -25,7 +25,7 @@ public class RegisterActivity extends AppCompatActivity {
     private EditText etName, etEmail, etPassword, etReenterPassword;
     private TextView tvStatus;
     private Button btnDaftar;
-    private String URL ="http://192.168.1.1/login/register.php";
+    private String URL ="http://192.168.43.128/login/register.php";
     private String name, email, password, reenterPassword;
 
     @Override
@@ -56,8 +56,7 @@ public class RegisterActivity extends AppCompatActivity {
                         tvStatus.setText("Successfully registered.");
                         btnDaftar.setClickable(false);
                     } else if (response.equals("failure")) {
-                        tvStatus.setText("Something went wrong!");
-                    }
+                        tvStatus.setText("Something went wrong!");                    }
                 }
             }, new Response.ErrorListener() {
                 @Override

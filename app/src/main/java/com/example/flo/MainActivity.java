@@ -23,13 +23,13 @@ public class MainActivity extends AppCompatActivity {
 
     private EditText etEmail, etPassword;
     private String email, password;
-    private String URL = "http://192.168.1.9/login/login.php";
+    private String URL = "http://192.168.43.128/login/login.php";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        email = password ="";
+        email = password = "";
         etEmail = findViewById(R.id.etEmail);
         etPassword = findViewById(R.id.etPassword);
     }
@@ -77,5 +77,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void Lupapw(View view) {
+        Intent intent = new Intent(this, LupapwActivity.class);
+        startActivity(intent);
+        finish();
     }
 }

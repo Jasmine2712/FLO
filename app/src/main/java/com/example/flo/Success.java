@@ -21,5 +21,8 @@ public class Success extends AppCompatActivity {
     }
 
     public void water(View view) {
+        Intent intent = new Intent(this, SaluranAirActivity.class);
+        startActivity(intent);
+        finish();
     }
 }

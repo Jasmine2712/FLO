@@ -12,7 +12,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FLO">
-        <activity android:name=".SaluranAirActivity"></activity>
+        <activity android:name=".KetinggianAir"></activity>
+        <activity android:name=".SaluranAirActivity" />
         <activity android:name=".LupapwActivity" />
         <activity android:name=".KondisiAirActivity" />
         <activity android:name=".Success" />

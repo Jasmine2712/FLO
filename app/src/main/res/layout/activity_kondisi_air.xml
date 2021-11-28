@@ -6,8 +6,7 @@
     android:layout_height="match_parent"
     android:background="#C5E8EA"
     android:gravity="center"
-    android:paddingTop="20dp"
-    android:paddingBottom="20dp"
+    android:paddingTop="40dp"
     android:orientation="vertical"
     tools:context=".KondisiAirActivity">
 
@@ -37,6 +36,17 @@
             android:textColor="@color/white"
             android:textSize="30sp" />
     </LinearLayout>
+
+    <EditText
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_url"
+        android:hint="Enter URL ....."
+        android:padding="10dp"
+        android:background="@drawable/bg" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -71,9 +81,14 @@
     <ImageView
         android:id="@+id/iv_result"
         android:layout_width="352dp"
-        android:layout_height="348dp"
+        android:layout_height="324dp"
         android:layout_marginTop="10dp"
-        android:background="@drawable/flomo"
-        android:paddingTop="20dp"
-        android:paddingBottom="60dp" />
+        android:background="@drawable/flomo" />
+
+    <ImageView
+        android:layout_width="47dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/home"
+        android:onClick="home"/>
+
 </LinearLayout>

@@ -53,28 +53,6 @@
         android:orientation="vertical">
 
         <TextView
-            android:layout_width="283dp"
-            android:layout_height="71dp"
-            android:layout_marginBottom="20dp"
-            android:background="@drawable/bg"
-            android:backgroundTint="#8AED7A"
-            android:gravity="center"
-            android:text="Ketinggian Air Normal"
-            android:textColor="@color/white"
-            android:textSize="20sp" />
-
-        <TextView
-            android:layout_width="283dp"
-            android:layout_height="71dp"
-            android:layout_marginBottom="20dp"
-            android:background="@drawable/bg"
-            android:backgroundTint="#FA9898"
-            android:textColor="@color/white"
-            android:textSize="20sp"
-            android:gravity="center"
-            android:text="Ketinggian Air \nMeningkat"/>
-
-        <TextView
             android:layout_width="205dp"
             android:layout_height="38dp"
             android:layout_marginBottom="20dp"
@@ -86,28 +64,29 @@
             android:textSize="20sp" />
 
         <LinearLayout
-            android:layout_width="374dp"
-            android:layout_height="166dp"
-            android:paddingBottom="20dp"
+            android:layout_width="302dp"
+            android:layout_height="93dp"
             android:gravity="center"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:paddingBottom="20dp">
 
             <LinearLayout
-                android:layout_width="127dp"
-                android:layout_height="148dp"
+                android:layout_width="213dp"
+                android:layout_height="66dp"
                 android:background="@drawable/bg"
                 android:backgroundTint="#A0D5EB"
                 android:gravity="center"
-                android:orientation="vertical">
+                android:orientation="horizontal">
 
                 <ImageView
-                    android:layout_width="61dp"
-                    android:layout_height="74dp"
+                    android:layout_width="44dp"
+                    android:layout_height="52dp"
+                    android:layout_marginTop="5dp"
                     android:layout_marginBottom="9dp"
                     android:src="@drawable/wa" />
 
                 <TextView
-                    android:layout_width="match_parent"
+                    android:layout_width="127dp"
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="Whats App"
@@ -118,30 +97,13 @@
                 android:layout_width="19dp"
                 android:layout_height="36dp" />
 
-            <LinearLayout
-                android:layout_width="127dp"
-                android:layout_height="148dp"
-                android:gravity="center"
-                android:background="@drawable/bg"
-                android:backgroundTint="#A0D5EB"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:layout_width="105dp"
-                    android:layout_height="69dp"
-                    android:layout_marginBottom="9dp"
-                    android:src="@drawable/tele" />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:text="Telegram"
-                    android:textColor="#515895"
-                    />
-
-            </LinearLayout>
-
         </LinearLayout>
+
+        <ImageView
+            android:layout_width="47dp"
+            android:layout_height="39dp"
+            android:onClick="home"
+            android:src="@drawable/home" />
 
     </LinearLayout>
 

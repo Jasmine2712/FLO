@@ -21,7 +21,7 @@ public class Success extends AppCompatActivity {
     }
 
     public void water(View view) {
-        Intent intent = new Intent(this, SaluranAirActivity.class);
+        Intent intent = new Intent(this, KetinggianAir.class);
         startActivity(intent);
         finish();
     }

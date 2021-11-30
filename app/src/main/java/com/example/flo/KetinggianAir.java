@@ -31,7 +31,7 @@ public class KetinggianAir extends AppCompatActivity {
         visitors.add(new BarEntry( 2019, 630));
         visitors.add(new BarEntry( 2020, 470));
 
-        BarDataSet barDataSet = new BarDataSet(visitors,"Visitors");
+        BarDataSet barDataSet = new BarDataSet(visitors,"Ketinggian Air");
         barDataSet.setColors(ColorTemplate.MATERIAL_COLORS);
         barDataSet.setValueTextColor(Color.BLACK);
         barDataSet.setValueTextSize(16f);

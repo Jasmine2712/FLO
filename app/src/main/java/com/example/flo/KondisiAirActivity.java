@@ -44,7 +44,7 @@ public class KondisiAirActivity extends AppCompatActivity {
         btSubmit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String urlLink = "http://192.168.43.128/FloMo/uploads/yato.png";
+                String urlLink = "http://192.168.43.128/FloMo/uploads/gambar1.jpeg";
                 LoadImage loadImage = new LoadImage(ivResult);
                 loadImage.execute(urlLink);
             }

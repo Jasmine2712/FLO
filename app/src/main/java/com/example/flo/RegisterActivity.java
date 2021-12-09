@@ -25,7 +25,7 @@ public class RegisterActivity extends AppCompatActivity {
     private EditText etName, etEmail, etPassword, etReenterPassword;
     private TextView tvStatus;
     private Button btnDaftar;
-    private String URL ="http://192.168.43.128/login/register.php";
+    private String URL ="http://192.168.1.10/login/register.php";
     private String name, email, password, reenterPassword;
 
     @Override
